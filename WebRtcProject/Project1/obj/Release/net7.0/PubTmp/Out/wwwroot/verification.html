@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="module" src="js/cap.js"> </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+        <a href="index.html" class="navbar-brand text-danger">ComRtc</a>
+        <a href="#N"data-toggle=collapse class="navbar-toggler"><span class="navbar-toggler-icon"></span></a>
+        
+        <div class="collapse navbar-collapse" id="N">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" data-toggle="modal" class="nav-link">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item"><a href="#serv" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact us</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="#feed" class="nav-link">Feedback</a></li> -->
+                <!-- <li class="nav-item"><a href="#" class="nav-link btn btn-outline-primary text-primary rounded">Login</a></li>-->
+            
+            </ul>
+            <a href="#login" class="nav-link btn btn-outline-danger ml-lg-2 mt-sm-3 mt-lg-0 loginbtn  "data-toggle="modal"style=max-width:78px>Login</a>
+        </div>
+    </nav>
+   
+   
+   
+    <!-- landing -->
+   
+   
+   
+    <div class=" d-flex justify-content-center align-items-center landing"style="height: calc(100vh - 58px) !important;position: relative;">
+       
+
+ 
+        <div class="greeting">
+            <h1 class="text-danger"style="font-weight:300">Verify Your Account</h1>
+            <h6 class="mt-3 text-muted " style="letter-spacing: 0px;">An email verification has been sent to your account</h6>
+            <input type="text"class ="form-control verifyclass mt-3"placeholder="Your verification code here">
+            <small class="text-danger invalidcode d-none" >Invalid code or the code has been expired</small>
+            <a href="#" class="btn btn-warning mt-2 verifybtn">Verify <img src="images/loading.png"class="loading verifyloading"style="display:none" alt=""></a>
+        </div>
+
+        <div class="wave1"></div>
+        <div class="wave2"></div>
+        <div class="wave3"></div>
+
+
+
+    </div>
+
+<!-- log in -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Log In</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body "style="">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="username-login" >UserName</label>
+                        <input  id="username-login"class=form-control type="text"required placeholder="Enter Your UserName">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-login" >Password</label>
+                        <input type="password"id="password-login"class="form-control"required placeholder="Enter Your Password">
+                        
+                    </div>
+        
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#signup"data-toggle="modal"class="mr-auto"data-dismiss="modal">Dont have account?</a>
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-danger loginbtn" >Log In</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- sign up -->
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Sign Up</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body "style="">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="fullname" >Full Name</label>
+                        <input  id="fullname"class=form-control type="text"required placeholder="Enter Your Fullname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" >Email</label>
+                        <input  id="email"class=form-control type="email"required placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="username-signup" >UserName</label>
+                        <input  id="username-signup"class=form-control type="text"required placeholder="Enter Your UserName">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-signup" >Password</label>
+                        <input type="password"id="password-signup"class="form-control"required placeholder="Enter Your Password">
+                        
+                    </div>
+        
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#login"data-toggle="modal"class="mr-auto"data-dismiss="modal">Have already account?</a>
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-danger signupbtn" >Sign Up</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- contact us modal -->
+ <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Contact Us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body "style="">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="email-contact" >Email</label>
+                        <input  id="email-contact"class=form-control type="email" placeholder="Enter Your Email (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="messagebody" >Your Message</label>
+                        <textarea  id="messagebody" cols="30" rows="10"class="form-control"></textarea>
+                        
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfmLVYpAAAAAPEbSt9QTUTJURpQP4DpzhmCBt8p" data-callback="getres2"></div>
+                    
+                </form>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-danger sendbtn" >Send</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+   <script src="js/popper.min.js"></script>
+   <script src="js/jquery-3.6.1.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+
+<script type="module" src="js/Shared.js"></script>
+<script type="module" src="js/verification.js"></script>
+</body>
+
+</html>

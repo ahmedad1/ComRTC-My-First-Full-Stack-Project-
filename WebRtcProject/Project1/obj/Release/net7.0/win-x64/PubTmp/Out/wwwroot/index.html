@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComRTC</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="module" src="js/cap.js"> </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+        <a href="index.html" class="navbar-brand text-danger">ComRtc</a>
+        <a href="#N"data-toggle=collapse class="navbar-toggler"><span class="navbar-toggler-icon"></span></a>
+        
+        <div class="collapse navbar-collapse" id="N">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" data-toggle="modal" class="nav-link">Contact Us</a>
+                </li>
+            
+            </ul>
+            <a href="#login" class="nav-link btn btn-outline-danger ml-lg-2 mt-sm-3 mt-lg-0 loginbtn  "data-toggle="modal"style=max-width:78px>Login</a>
+        </div>
+    </nav>
+   
+   
+   
+    <!-- landing -->
+   
+   
+   
+    <div class=" d-flex justify-content-center align-items-center landing"style="height: calc(100vh - 58px) !important;position: relative;">
+       
+
+ 
+        <div class="greeting">
+            <h1 class="text-danger"style="font-weight:300">Wellcome To ComRTC</h1>
+            <h6 class="mt-2 " style="letter-spacing: 2px;">Communicate With Anyone</h6>
+            <a href="#signup"data-toggle="modal"class="btn btn-warning mt-2">Join us</a>
+        </div>
+
+        <div class="wave1"></div>
+        <div class="wave2"></div>
+        <div class="wave3"></div>
+
+
+
+    </div>
+
+<!-- log in -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Log In</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body ">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="username_login" >UserName</label>
+                        <input  id="username_login"class=form-control type="text"required placeholder="Enter Your UserName">
+                        <small class="invalidusernamelogin d-none text-danger">Invalid Value</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password_login" >Password</label>
+                        <input type="password"id="password_login"class="form-control"required placeholder="Enter Your Password">
+                        <small class="invalidpasswordlogin d-none text-danger">Invalid Value</small>
+                    </div>
+                    <small class="text-danger d-none wronguorp">Invalid Username Or Password</small>
+                    <div class="form-group">
+                      <input type="checkbox"id="showpasswdlogin">
+                      <label for="showpasswdlogin" >Show Password</label>
+                      
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfmLVYpAAAAAPEbSt9QTUTJURpQP4DpzhmCBt8p"data-callback="getres2"></div>
+                    
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#signup"data-toggle="modal"class="mr-auto"data-dismiss="modal">Dont have account?</a>
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-danger loginbtnform" >Log In <img src="images/loading.png"class="loading loginloading"style="display:none" alt=""></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- sign up -->
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Sign Up</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body "style="">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="fullname" >Full Name</label>
+                        <input  id="fullname"class=form-control type="text"required placeholder="Enter Your Fullname">
+                        <small class="invalidfullname d-none text-danger">Invalid Value</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" >Email</label>
+                        <input  id="email"class=form-control type="email"required placeholder="Enter Your Email">
+                        <small class="invalidemail d-none text-danger">Invalid Value</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="username_signup" >UserName</label>
+                        <input  id="username_signup"class=form-control type="text"required placeholder="Enter Your UserName">
+                        <small class="invalidusername d-none text-danger">Invalid Value</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password_signup" >Password</label>
+                        <input type="password"id="password_signup"class="form-control"required placeholder="Enter Your Password">
+                        <small class="text-danger weakpassword d-none mt-1">Weak Password</small>
+                        <div class="form-group mt-2">
+                          <input type="checkbox"id="showpasswdsignup">
+                          <label for="showpasswdsignup" >Show Password</label>
+                          
+                        </div>
+                    <div class="g-recaptcha" data-sitekey="6LfmLVYpAAAAAPEbSt9QTUTJURpQP4DpzhmCBt8p"data-callback="getres2"></div>
+                        <small  class="mt-2 ">
+                          Password length should be atleast 8 characters
+                        <br>
+                        Password Should contain atleast one uppercase charater [A-Z],
+                        <br>
+                        Password Should contain atleast one lower charater [a-z],
+                        <br>
+                        Password Should contain atleast one number charater [0-9],
+                        <br>
+                        Password Should contain atleast one non-charcter charater [~!@#$%^&]
+                        </small>
+                    </div>
+        
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#login"data-toggle="modal"class="mr-auto"data-dismiss="modal">Have already account?</a>
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-danger signupbtn" >Sign Up <img src="images/loading.png"class="loading signuploading"style="display:none" alt=""></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- contact us modal -->
+ <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Contact Us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body ">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="email-contact" >Email</label>
+                        <input  id="email-contact"class=form-control type="email" placeholder="Enter Your Email (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="messagebody" >Your Message</label>
+                        <textarea  id="messagebody" cols="30" rows="10"class="form-control"></textarea>
+                        
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfmLVYpAAAAAPEbSt9QTUTJURpQP4DpzhmCBt8p" data-callback="getres2"></div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger sendbtn" >Send <img src="images/loading.png"class="loading contactusloading"style="display:none" alt=""></button>
+                
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+   <script src="js/popper.min.js"></script>
+   <script src="js/jquery-3.6.1.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+
+<script type="module" src="js/Shared.js"></script>
+<script type="module" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComRTC</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="module" src="js/cap.js"> </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+        <a href="main.html" class="navbar-brand text-danger">ComRtc</a>
+        <a href="#N"data-toggle=collapse class="navbar-toggler"><span class="navbar-toggler-icon"></span></a>
+        
+        <div class="collapse navbar-collapse" id="N">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a href="main.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" data-toggle="modal" class="nav-link">Contact Us</a>
+                </li>
+              
+            
+            </ul>
+            <button class="nav-link btn btn-outline-danger ml-lg-2 mt-sm-3 mt-lg-0 signoutbtn ">Sign Out <img src="images/loading.png"class="loading signoutloading"style="display:none" alt=""></button>
+        </div>
+    </nav>
+   
+   
+   
+    <!-- landing -->
+   
+   
+   
+    <div class=" d-flex justify-content-center  landing flex-column"style="height: calc(100vh - 58px) !important;position: relative;">
+        
+        <div class="container d-flex align-items-center flex-column">
+            
+            
+            <div class="mt-5 d-flex flex-column container align-items-center">
+                
+                
+                <h1 class="text-danger h1greet text-center"style="letter-spacing:2px;">Designed For You</h1>
+                <h6 class="mt-4 text-muted text-center" style="letter-spacing: 2px;">Communicate With Anyone, Join or Make Your Own Room</h6>
+                <div class="greeting mt-4" >
+                    <button class="btn btn-warning makeroom ">Make Room</button>
+                    <button class="btn btn-outline-danger joinroom ">Join Room</button>
+                    
+                </div>
+                <img class="imgland" src="./images/—Pngtree—online conference line office_6283901.png"style="width:52vh;filter:drop-shadow(2px 4px 6px black);" alt="">
+
+            </div>
+
+</div>
+ 
+
+        <div class="wave1"></div>
+        <div class="wave2"></div>
+        <div class="wave3"></div>
+
+
+
+    </div>
+
+
+<!-- contact us modal -->
+ <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " >Contact Us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body "style="">
+                <form action="" method="post"class="form-control">
+                    <div class="form-group">
+                        <label for="email-contact" >Email</label>
+                        <input  id="email-contact"class=form-control type="email" placeholder="Enter Your Email (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <label for="messagebody" >Your Message</label>
+                        <textarea  id="messagebody" cols="30" rows="10"class="form-control"></textarea>
+                        
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfmLVYpAAAAAPEbSt9QTUTJURpQP4DpzhmCBt8p" data-callback="getres2"></div>
+                    
+                </form>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-secondary closemodal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger sendbtn" >Send <img src="images/loading.png"class="loading contactusloading"style="display:none" alt=""></button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+   <script src="js/popper.min.js"></script>
+   <script src="js/jquery-3.6.1.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+
+   <script type="module" src="js/Shared.js"></script>
+   <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

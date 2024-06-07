@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KFSvCxuYvuKvL76wHRC34fry2Dv6HHk0i4pmDPN2DK0=",
+  "Hash": "ybJuwKMo6nPAqivFFH/Z3Jc4FPdijoZZoh7lPATlp5g=",
   "Source": "Project1",
   "BasePath": "_content/Project1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Project1\\wwwroot",
       "Source": "Project1",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\css\\bootstrap.css",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\css\\bootstrap.css",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\css\\index.css",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\css\\index.css",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\images\\loading.png",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\images\\loading.png",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "images/loading.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\loading.png"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\images\\—Pngtree—online conference line office_6283901.png",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\images\\—Pngtree—online conference line office_6283901.png",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "images/—Pngtree—online conference line office_6283901.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\—Pngtree—online conference line office_6283901.png"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\images\\user-solid.svg",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\images\\user-solid.svg",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "images/user-solid.svg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user-solid.svg"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\index.html",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\index.html",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\Join.html",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\Join.html",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "Join.html",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Join.html"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\bootstrap.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\bootstrap.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\cap.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\cap.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/cap.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\js\\cap.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\index.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\index.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\Join.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\Join.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/Join.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Join.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\jquery-3.6.1.min.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\jquery-3.6.1.min.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/jquery-3.6.1.min.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.6.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\main.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\main.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\MakeRoom.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\MakeRoom.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/MakeRoom.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\js\\MakeRoom.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\popper.min.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\popper.min.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/popper.min.js",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\Shared.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\Shared.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/Shared.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Shared.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\signalR.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\signalR.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/signalR.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signalR.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\verification.js",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\verification.js",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "js/verification.js",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\js\\verification.js"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\main.html",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\main.html",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "main.html",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\main.html"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\MakeRoom.html",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\MakeRoom.html",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "MakeRoom.html",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\MakeRoom.html"
     },
     {
-      "Identity": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\verification.html",
+      "Identity": "D:\\WebRtcProject\\Project1\\wwwroot\\verification.html",
       "SourceId": "Project1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\",
+      "ContentRoot": "D:\\WebRtcProject\\Project1\\wwwroot\\",
       "BasePath": "_content/Project1",
       "RelativePath": "verification.html",
       "AssetKind": "All",

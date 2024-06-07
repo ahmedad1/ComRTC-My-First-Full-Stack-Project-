@@ -12,3 +12,17 @@ C:\Users\Infotech\Desktop\WebRtcProject\DataProject\obj\Debug\net8.0\refint\Data
 C:\Users\Infotech\Desktop\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.pdb
 C:\Users\Infotech\Desktop\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.genruntimeconfig.cache
 C:\Users\Infotech\Desktop\WebRtcProject\DataProject\obj\Debug\net8.0\ref\DataProject.dll
+D:\WebRtcProject\DataProject\bin\Debug\net8.0\DataProject.deps.json
+D:\WebRtcProject\DataProject\bin\Debug\net8.0\DataProject.runtimeconfig.json
+D:\WebRtcProject\DataProject\bin\Debug\net8.0\DataProject.dll
+D:\WebRtcProject\DataProject\bin\Debug\net8.0\DataProject.pdb
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.csproj.AssemblyReference.cache
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.AssemblyInfoInputs.cache
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.AssemblyInfo.cs
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.csproj.CoreCompileInputs.cache
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.dll
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\refint\DataProject.dll
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.pdb
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\DataProject.genruntimeconfig.cache
+D:\WebRtcProject\DataProject\obj\Debug\net8.0\ref\DataProject.dll

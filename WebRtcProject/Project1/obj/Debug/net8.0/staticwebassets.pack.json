@@ -1,87 +1,87 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\Join.html",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\Join.html",
       "PackagePath": "staticwebassets\\Join.html"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\MakeRoom.html",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\MakeRoom.html",
       "PackagePath": "staticwebassets\\MakeRoom.html"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\css\\bootstrap.css",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\css\\index.css",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\images\\loading.png",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\images\\loading.png",
       "PackagePath": "staticwebassets\\images\\loading.png"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\images\\user-solid.svg",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\images\\user-solid.svg",
       "PackagePath": "staticwebassets\\images\\user-solid.svg"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\images\\—Pngtree—online conference line office_6283901.png",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\images\\—Pngtree—online conference line office_6283901.png",
       "PackagePath": "staticwebassets\\images\\—Pngtree—online conference line office_6283901.png"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\index.html",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\Join.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\Join.js",
       "PackagePath": "staticwebassets\\js\\Join.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\MakeRoom.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\MakeRoom.js",
       "PackagePath": "staticwebassets\\js\\MakeRoom.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\Shared.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\Shared.js",
       "PackagePath": "staticwebassets\\js\\Shared.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\bootstrap.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\cap.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\cap.js",
       "PackagePath": "staticwebassets\\js\\cap.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\index.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\jquery-3.6.1.min.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\jquery-3.6.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.6.1.min.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\main.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\popper.min.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\signalR.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\signalR.js",
       "PackagePath": "staticwebassets\\js\\signalR.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\verification.js",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\js\\verification.js",
       "PackagePath": "staticwebassets\\js\\verification.js"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\main.html",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\main.html",
       "PackagePath": "staticwebassets\\main.html"
     },
     {
-      "Id": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\verification.html",
+      "Id": "D:\\WebRtcProject\\Project1\\wwwroot\\verification.html",
       "PackagePath": "staticwebassets\\verification.html"
     },
     {

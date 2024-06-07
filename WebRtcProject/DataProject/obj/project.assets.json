@@ -5904,11 +5904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\DataProject.csproj",
+      "projectUniqueName": "D:\\WebRtcProject\\DataProject\\DataProject.csproj",
       "projectName": "DataProject",
-      "projectPath": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\DataProject.csproj",
+      "projectPath": "D:\\WebRtcProject\\DataProject\\DataProject.csproj",
       "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\obj\\",
+      "outputPath": "D:\\WebRtcProject\\DataProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -114,9 +114,9 @@ if(Object.keys(rtcObjectsControl).length==0){
         }
         await rtc.setRemoteDescription({type:"offer",sdp:JSON.parse(sdp1)});
         if(Object.keys(rtcObjectsControl).length==0)
-        controls=await buildSdpAnswer(rtc,video);
+        controls=await buildSdpAnswer(rtc,video,null,micbtn.classList.contains("cancelline"));
         else{
-            controls=await buildSdpAnswer(rtc,video,rtcObjectsControl[Object.keys(rtcObjectsControl)[0]].getUserStream());
+            controls=await buildSdpAnswer(rtc,video,rtcObjectsControl[Object.keys(rtcObjectsControl)[0]].getUserStream(),micbtn.classList.contains("cancelline"));
 
         }
         signal.invoke("ReplySdp",getCookie("username"),username,JSON.stringify(controls.Rtc.localDescription.sdp))

@@ -205,7 +205,7 @@ export function getCookie(cookieName) {
     });
     }
     
-    export async function buildSdpAnswer(rtc,videotag,userstream=null){
+    export async function buildSdpAnswer(rtc,videotag,userstream=null,openMic=false){
           
       let isnull=false
       // let screenstreamg=null;
@@ -221,10 +221,11 @@ export function getCookie(cookieName) {
       //   userstream=videotag.srcObject
       //  }
       // videotag.srcObject=new MediaStream(userstream.getVideoTracks())
+      const videoTracksEnabled=videotag.srcObject.getVideoTracks()[0].enabled
       let tracks=userstream.getTracks();
       for(let i of tracks){
         if(isnull)
-        i.enabled=false
+          i.enabled=i.kind=="video"?videoTracksEnabled:openMic
         rtc.addTrack(i,userstream);
       }
       // if(screenstreamg!=null){
@@ -241,7 +242,7 @@ export function getCookie(cookieName) {
       //   }
       // }
     // if(screenstreamg==null)
-    videotag.srcObject=new MediaStream(userstream.getVideoTracks())
+    // videotag.srcObject=new MediaStream(userstream.getVideoTracks())//////////--------##########3
     //  else{
     //   videotag.srcObject=screenstreamg
     //  }

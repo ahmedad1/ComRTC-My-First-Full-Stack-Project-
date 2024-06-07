@@ -1,12 +1,136 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\WebRtcProject\\Project1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\applicationstartup\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:applicationstartup\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\signalr\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:signalr\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\actionfilter\\preventblacklisttokensactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:actionfilter\\preventblacklisttokensactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\middlewares\\redirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:middlewares\\redirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|d:\\webrtcproject\\dataproject\\cqrs\\handlers\\fireuserfromhisgrouphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HostedService.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\ApplicationStartUp\\HostedService.cs",
+              "RelativeDocumentMoniker": "ApplicationStartUp\\HostedService.cs",
+              "ToolTip": "D:\\WebRtcProject\\Project1\\ApplicationStartUp\\HostedService.cs",
+              "RelativeToolTip": "ApplicationStartUp\\HostedService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:28:38.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PreventBlackListTokensActionFilter.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\ActionFilter\\PreventBlackListTokensActionFilter.cs",
+              "RelativeDocumentMoniker": "ActionFilter\\PreventBlackListTokensActionFilter.cs",
+              "ToolTip": "D:\\WebRtcProject\\Project1\\ActionFilter\\PreventBlackListTokensActionFilter.cs",
+              "RelativeToolTip": "ActionFilter\\PreventBlackListTokensActionFilter.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:21:05.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Redirection.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\Middlewares\\Redirection.cs",
+              "RelativeDocumentMoniker": "Middlewares\\Redirection.cs",
+              "ToolTip": "D:\\WebRtcProject\\Project1\\Middlewares\\Redirection.cs",
+              "RelativeToolTip": "Middlewares\\Redirection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:21:05.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FireUserFromHisGroupHandler.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
+              "ToolTip": "D:\\WebRtcProject\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
+              "RelativeToolTip": "..\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:16:11.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainHub.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\SignalR\\MainHub.cs",
+              "RelativeDocumentMoniker": "SignalR\\MainHub.cs",
+              "ToolTip": "D:\\WebRtcProject\\Project1\\SignalR\\MainHub.cs",
+              "RelativeToolTip": "SignalR\\MainHub.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwGoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:03:40.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\WebRtcProject\\Project1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwCAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:57:04.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\WebRtcProject\\Project1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAowM0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:21:05.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
         {
           "DockedWidth": 200,
           "SelectedChildIndex": -1,

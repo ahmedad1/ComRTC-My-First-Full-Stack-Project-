@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Project1.ApplicationStartUp;
 using Project1.Middlewares;
 using SmallProject.EmailService;
 using SmallProject.Middlewares;
@@ -29,6 +30,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("constr")).UseLazyLoadingProxies());
 builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
 builder.Services.AddTransient<ISendService,SendEmailService>();
+builder.Services.AddHostedService<HostedService>();
 builder.Services.AddAuthentication(opts =>
 {
     opts.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -84,3 +86,4 @@ app.MapHub<MainHub>("/connection");
 
 app.MapControllers();
 app.Run();
+

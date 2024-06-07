@@ -104,11 +104,8 @@ namespace DataProject.SignalR
                await Clients.Group(group.GroupName).SendAsync("isOffline", user.UserName);
             }
             //delete all groups related
-            var success = await mediator.Send(new FireUserFromHisGroup(user));
-            if (success == false)
-            {
-                Console.WriteLine("&&&&&&&&&&&&&&&&&7Error&&&&&&&&&&&&&&&&&&&&&&&&&");
-            }
+            await mediator.Send(new FireUserFromHisGroup(user));
+          
             
             await  base.OnDisconnectedAsync(exception);
         }

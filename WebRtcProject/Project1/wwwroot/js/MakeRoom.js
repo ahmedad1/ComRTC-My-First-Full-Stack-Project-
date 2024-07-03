@@ -1,4 +1,4 @@
-import { backOrigin, buildSdpAnswer,deleteAllUserCookies, frontOrigin, insertAfter,getCookie, toggleFullScreen } from "./Shared.js"
+import { backOrigin, buildSdpAnswer,deleteAllUserCookies, frontOrigin, insertAfter,getCookie, toggleFullScreen, configsOfWebRTC } from "./Shared.js"
 
 
 let interval
@@ -82,7 +82,7 @@ if(Object.keys(rtcObjectsControl).length==0){
     }
     video.srcObject=new MediaStream(mystreamobj.getVideoTracks());
     signal.on("getSdpOfUser",async function( username,fullname,sdp1){
-        let rtc=new RTCPeerConnection();
+        const rtc=new RTCPeerConnection(configsOfWebRTC);
         
         rtc.ontrack=function(e){
             // console.log("ontrackMakeRoom")
@@ -91,7 +91,8 @@ if(Object.keys(rtcObjectsControl).length==0){
              videoStreams[username]=e.streams[0];
             videonode.srcObject=e.streams[0]
             videonode.autoplay=true;
-                mystreamobj=video.srcObject
+                // mystreamobj=video.srcObject
+                mystreamobj=rtc.getLocalStreams()[0]
             let divContainer=document.createElement("div")
             divContainer.classList.add("col-lg-4","col-md-6","col-12","rounded","video-container")
             divContainer.appendChild(videonode);
@@ -114,9 +115,9 @@ if(Object.keys(rtcObjectsControl).length==0){
         }
         await rtc.setRemoteDescription({type:"offer",sdp:JSON.parse(sdp1)});
         if(Object.keys(rtcObjectsControl).length==0)
-        controls=await buildSdpAnswer(rtc,video,null,micbtn.classList.contains("cancelline"));
+        controls=await buildSdpAnswer(rtc,video);
         else{
-            controls=await buildSdpAnswer(rtc,video,rtcObjectsControl[Object.keys(rtcObjectsControl)[0]].getUserStream(),micbtn.classList.contains("cancelline"));
+            controls=await buildSdpAnswer(rtc,video,rtcObjectsControl[Object.keys(rtcObjectsControl)[0]].getUserStream());
 
         }
         signal.invoke("ReplySdp",getCookie("username"),username,JSON.stringify(controls.Rtc.localDescription.sdp))

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebRtcProject\\DataProject\\DataProject.csproj": {}
+    "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\DataProject.csproj": {}
   },
   "projects": {
-    "D:\\WebRtcProject\\DataProject\\DataProject.csproj": {
+    "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\DataProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebRtcProject\\DataProject\\DataProject.csproj",
+        "projectUniqueName": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\DataProject.csproj",
         "projectName": "DataProject",
-        "projectPath": "D:\\WebRtcProject\\DataProject\\DataProject.csproj",
+        "projectPath": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\DataProject.csproj",
         "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-        "outputPath": "D:\\WebRtcProject\\DataProject\\obj\\",
+        "outputPath": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",

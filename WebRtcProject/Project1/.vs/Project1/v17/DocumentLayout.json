@@ -1,33 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WebRtcProject\\Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\applicationstartup\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:applicationstartup\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\project1\\wwwroot\\js\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:wwwroot\\js\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\signalr\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\project1\\signalr\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:signalr\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\project1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\actionfilter\\preventblacklisttokensactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:actionfilter\\preventblacklisttokensactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|d:\\webrtcproject\\project1\\middlewares\\redirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:middlewares\\redirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\project1\\applicationlifetime\\hostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{644BB6BC-4447-4B58-B752-72E485E9FC3C}|Project1.csproj|solutionrelative:applicationlifetime\\hostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|d:\\webrtcproject\\dataproject\\cqrs\\handlers\\fireuserfromhisgrouphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\dataproject\\cqrs\\handlers\\removeuserconnectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\dataproject\\cqrs\\handlers\\removeallgroupshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\dataproject\\cqrs\\commands\\removealluserconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\dataproject\\cqrs\\handlers\\removealluserconnectionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\dataproject\\cqrs\\commands\\removeallgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824A78DE-ACE5-4A6A-A0E4-E638B58A40EA}|..\\DataProject\\DataProject.csproj|c:\\users\\infotech\\desktop\\webrtcproject\\dataproject\\data\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,92 +53,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HostedService.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\ApplicationStartUp\\HostedService.cs",
-              "RelativeDocumentMoniker": "ApplicationStartUp\\HostedService.cs",
-              "ToolTip": "D:\\WebRtcProject\\Project1\\ApplicationStartUp\\HostedService.cs",
-              "RelativeToolTip": "ApplicationStartUp\\HostedService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:28:38.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PreventBlackListTokensActionFilter.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\ActionFilter\\PreventBlackListTokensActionFilter.cs",
-              "RelativeDocumentMoniker": "ActionFilter\\PreventBlackListTokensActionFilter.cs",
-              "ToolTip": "D:\\WebRtcProject\\Project1\\ActionFilter\\PreventBlackListTokensActionFilter.cs",
-              "RelativeToolTip": "ActionFilter\\PreventBlackListTokensActionFilter.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowBsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:21:05.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Redirection.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\Middlewares\\Redirection.cs",
-              "RelativeDocumentMoniker": "Middlewares\\Redirection.cs",
-              "ToolTip": "D:\\WebRtcProject\\Project1\\Middlewares\\Redirection.cs",
-              "RelativeToolTip": "Middlewares\\Redirection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:21:05.467Z",
+              "Title": "Shared.js",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\Shared.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Shared.js",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\wwwroot\\js\\Shared.js",
+              "RelativeToolTip": "wwwroot\\js\\Shared.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-03T11:46:51.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FireUserFromHisGroupHandler.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
-              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
-              "ToolTip": "D:\\WebRtcProject\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
-              "RelativeToolTip": "..\\DataProject\\CQRS\\Handlers\\FireUserFromHisGroupHandler.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "RemoveAllGroupsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Handlers\\RemoveAllGroupsHandler.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Handlers\\RemoveAllGroupsHandler.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Handlers\\RemoveAllGroupsHandler.cs",
+              "RelativeToolTip": "..\\DataProject\\CQRS\\Handlers\\RemoveAllGroupsHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:16:11.755Z"
+              "WhenOpened": "2024-06-07T17:04:46.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RemoveAllUserConnections.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Commands\\RemoveAllUserConnections.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Commands\\RemoveAllUserConnections.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Commands\\RemoveAllUserConnections.cs",
+              "RelativeToolTip": "..\\DataProject\\CQRS\\Commands\\RemoveAllUserConnections.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:01:19.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HostService.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\ApplicationLifetime\\HostService.cs",
+              "RelativeDocumentMoniker": "ApplicationLifetime\\HostService.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\ApplicationLifetime\\HostService.cs",
+              "RelativeToolTip": "ApplicationLifetime\\HostService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T16:57:08.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAcwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:32:27.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAUwMkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:33:24.309Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainHub.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\SignalR\\MainHub.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\SignalR\\MainHub.cs",
               "RelativeDocumentMoniker": "SignalR\\MainHub.cs",
-              "ToolTip": "D:\\WebRtcProject\\Project1\\SignalR\\MainHub.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\Project1\\SignalR\\MainHub.cs",
               "RelativeToolTip": "SignalR\\MainHub.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAwwGoAAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:03:40.774Z",
+              "WhenOpened": "2024-06-07T12:33:40.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\WebRtcProject\\Project1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAcwCAAAAAzAAAA",
+              "DocumentIndex": 5,
+              "Title": "RemoveUserConnectionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Handlers\\RemoveUserConnectionHandler.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Handlers\\RemoveUserConnectionHandler.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Handlers\\RemoveUserConnectionHandler.cs",
+              "RelativeToolTip": "..\\DataProject\\CQRS\\Handlers\\RemoveUserConnectionHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwA0AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:57:04.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T17:19:15.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\WebRtcProject\\Project1\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\WebRtcProject\\Project1\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAMQAAAAAAAAAAAAowM0AAAAMAAAA",
+              "DocumentIndex": 8,
+              "Title": "RemoveAllUserConnectionsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Handlers\\RemoveAllUserConnectionsHandler.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Handlers\\RemoveAllUserConnectionsHandler.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Handlers\\RemoveAllUserConnectionsHandler.cs",
+              "RelativeToolTip": "..\\DataProject\\CQRS\\Handlers\\RemoveAllUserConnectionsHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:21:05.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T17:05:07.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RemoveAllGroups.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Commands\\RemoveAllGroups.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\CQRS\\Commands\\RemoveAllGroups.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\CQRS\\Commands\\RemoveAllGroups.cs",
+              "RelativeToolTip": "..\\DataProject\\CQRS\\Commands\\RemoveAllGroups.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:00:23.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\Data\\Group.cs",
+              "RelativeDocumentMoniker": "..\\DataProject\\Data\\Group.cs",
+              "ToolTip": "C:\\Users\\Infotech\\Desktop\\WebRtcProject\\DataProject\\Data\\Group.cs",
+              "RelativeToolTip": "..\\DataProject\\Data\\Group.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:37:27.912Z"
             }
           ]
         },

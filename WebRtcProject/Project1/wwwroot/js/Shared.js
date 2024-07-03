@@ -1,5 +1,24 @@
 export let backOrigin =location.origin   
 export let frontOrigin=location.origin
+export const configsOfWebRTC={
+  iceServers:[
+    { urls: "stun:stun.l.google.com:19302" },
+    { urls: "stun:stun.l.google.com:5349" },
+    { urls: "stun:stun1.l.google.com:3478" },
+    { urls: "stun:stun1.l.google.com:5349" },
+    { urls: "stun:stun2.l.google.com:19302" },
+    { urls: "stun:stun2.l.google.com:5349" },
+    { urls: "stun:stun3.l.google.com:3478" },
+    { urls: "stun:stun3.l.google.com:5349" },
+    { urls: "stun:stun4.l.google.com:19302" },
+    { urls: "stun:stun4.l.google.com:5349" },
+    {
+      'urls': 'turn:relay1.expressturn.com:3478',     
+      'username': 'efS8DS7KW1Q70OFFEH',
+      'credential': 'CYnioQE6bAL2ahIE',
+    }
+  ]
+}
 let openedvideo=0;
 let openedscreen=0;
 let openedmic=0;
@@ -205,7 +224,7 @@ export function getCookie(cookieName) {
     });
     }
     
-    export async function buildSdpAnswer(rtc,videotag,userstream=null,openMic=false){
+    export async function buildSdpAnswer(rtc,videotag,userstream=null){
           
       let isnull=false
       // let screenstreamg=null;
@@ -216,18 +235,21 @@ export function getCookie(cookieName) {
         isnull=true;
        
         userstream=await navigator.mediaDevices.getUserMedia({video:true, audio:true});
+      
        }
       //  else if(videotag.srcObject!=null){
       //   userstream=videotag.srcObject
       //  }
       // videotag.srcObject=new MediaStream(userstream.getVideoTracks())
       const videoTracksEnabled=videotag.srcObject.getVideoTracks()[0].enabled
+      
       let tracks=userstream.getTracks();
       for(let i of tracks){
         if(isnull)
-          i.enabled=i.kind=="video"?videoTracksEnabled:openMic
+        i.enabled=i.kind=="video"?videoTracksEnabled:false
         rtc.addTrack(i,userstream);
       }
+      
       // if(screenstreamg!=null){
       //   let t=screenstreamg.getVideoTracks()
       //   for(let i of t){
@@ -242,7 +264,7 @@ export function getCookie(cookieName) {
       //   }
       // }
     // if(screenstreamg==null)
-    // videotag.srcObject=new MediaStream(userstream.getVideoTracks())//////////--------##########3
+    videotag.srcObject=new MediaStream(userstream.getVideoTracks())
     //  else{
     //   videotag.srcObject=screenstreamg
     //  }

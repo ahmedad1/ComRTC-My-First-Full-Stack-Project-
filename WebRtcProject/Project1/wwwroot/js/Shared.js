@@ -92,10 +92,10 @@ export function getCookie(cookieName) {
       videotag.srcObject=new MediaStream(userstream.getVideoTracks())
    
       
-  
-    let offer=await rtc.createOffer();
-    await rtc.setLocalDescription(offer);
-    return new Promise((res,rej)=>{
+      // let offer=await rtc.createOffer();
+      // await rtc.setLocalDescription(offer);
+
+    return new Promise(async(res,rej)=>{
   
       rtc.onicecandidate= function(){
         if(rtc.iceGatheringState=="complete"){
@@ -221,6 +221,9 @@ export function getCookie(cookieName) {
           });
         }
       }
+      let offer=await rtc.createOffer();
+      await rtc.setLocalDescription(offer);
+
     });
     }
     
@@ -269,9 +272,9 @@ export function getCookie(cookieName) {
     //   videotag.srcObject=screenstreamg
     //  }
   
-      let answer=await rtc.createAnswer();
-      await rtc.setLocalDescription(answer);
-      return new Promise((res,rej)=>{
+      // let answer=await rtc.createAnswer();
+      // await rtc.setLocalDescription(answer);
+      return new Promise(async (res,rej)=>{
   
         rtc.onicecandidate= function(){
           if(rtc.iceGatheringState=="complete"){
@@ -394,6 +397,8 @@ export function getCookie(cookieName) {
             });
           }
         }
+        let answer=await rtc.createAnswer();
+        await rtc.setLocalDescription(answer);
       });
     }
   
